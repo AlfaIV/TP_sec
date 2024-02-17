@@ -1,0 +1,280 @@
+[2024-02-17 18:18:29]   
+
+Starting Server
+
+
+[2024-02-17 18:18:29]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 18:19:35]   
+
+Starting Server
+
+
+[2024-02-17 18:19:35]   Error: Cannot start listening...
+[2024-02-17 18:19:35]   Stopping Server
+[2024-02-17 18:19:43]   Interrupting Server.
+[2024-02-17 18:19:44]   Stopping Server
+[2024-02-17 18:19:45]   
+
+Starting Server
+
+
+[2024-02-17 18:19:45]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 18:20:21]   Request received from: 127.0.0.1 at port: 49216
+[2024-02-17 18:20:21]   HTTP Connection request
+[2024-02-17 18:20:21]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 18:20:21]  Error: forward request...[Errno 2] No such file or directory: b'cache/_mail_ru'
+[2024-02-17 18:22:35]   Request received from: 127.0.0.1 at port: 43134
+[2024-02-17 18:22:35]   HTTP Connection request
+[2024-02-17 18:22:35]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 18:22:35]  Error: forward request...[Errno 2] No such file or directory: b'cache/_mail_ru'
+[2024-02-17 18:24:37]   Request received from: 127.0.0.1 at port: 36212
+[2024-02-17 18:24:37]   HTTP Connection request
+[2024-02-17 18:24:37]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 18:24:37]  Request of client 127.0.0.1 completed...
+[2024-02-17 18:32:52]   Request received from: 127.0.0.1 at port: 47720
+[2024-02-17 18:32:52]   HTTP Connection request
+[2024-02-17 18:32:52]  Cache Hit
+[2024-02-17 18:36:28]   Request received from: 127.0.0.1 at port: 41264
+[2024-02-17 18:36:28]   HTTPS Connection request
+[2024-02-17 18:36:28]  HTTPS Connection Established
+[2024-02-17 18:37:12]   Request received from: 127.0.0.1 at port: 58350
+[2024-02-17 18:37:12]   HTTPS Connection request
+[2024-02-17 18:37:12]  HTTPS Connection Established
+[2024-02-17 19:53:19]   Request received from: 127.0.0.1 at port: 39620
+[2024-02-17 19:53:19]   HTTP Connection request
+[2024-02-17 19:53:19]  Cache Hit
+[2024-02-17 19:53:38]   Request received from: 127.0.0.1 at port: 33186
+[2024-02-17 19:53:38]   HTTP Connection request
+[2024-02-17 19:53:38]  Cache Hit
+[2024-02-17 20:23:43]   Request received from: 127.0.0.1 at port: 34606
+[2024-02-17 20:23:43]   HTTP Connection request
+[2024-02-17 20:23:43]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 20:23:43]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-17 20:23:46]   Request received from: 127.0.0.1 at port: 34620
+[2024-02-17 20:23:46]   HTTP Connection request
+[2024-02-17 20:23:46]  Cache Hit
+[2024-02-17 20:29:42]   Request received from: 127.0.0.1 at port: 33850
+[2024-02-17 20:29:42]   HTTP Connection request
+[2024-02-17 20:29:42]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 20:29:42]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-17 20:29:58]   Interrupting Server.
+[2024-02-17 20:29:58]   Stopping Server
+[2024-02-17 20:30:01]   
+
+Starting Server
+
+
+[2024-02-17 20:30:01]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 20:30:09]   Request received from: 127.0.0.1 at port: 44654
+[2024-02-17 20:30:09]   HTTP Connection request
+[2024-02-17 20:30:09]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 20:30:09]  Request of client 127.0.0.1 completed...
+[2024-02-17 20:42:10]   Interrupting Server.
+[2024-02-17 20:42:10]   Stopping Server
+[2024-02-17 20:42:11]   
+
+Starting Server
+
+
+[2024-02-17 20:42:11]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 20:42:21]   Request received from: 127.0.0.1 at port: 57334
+[2024-02-17 20:42:21]   HTTP Connection request
+[2024-02-17 20:42:21]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 20:42:21]  Request of client 127.0.0.1 completed...
+[2024-02-17 20:57:04]   Interrupting Server.
+[2024-02-17 20:57:04]   Stopping Server
+[2024-02-17 20:57:05]   
+
+Starting Server
+
+
+[2024-02-17 20:57:05]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 20:57:12]   Request received from: 127.0.0.1 at port: 34434
+[2024-02-17 20:57:12]   HTTP Connection request
+[2024-02-17 20:57:12]  Error: forward request...sequence item 0: expected str instance, bytes found
+[2024-02-17 20:57:31]   Interrupting Server.
+[2024-02-17 20:57:32]   Stopping Server
+[2024-02-17 20:57:32]   
+
+Starting Server
+
+
+[2024-02-17 20:57:32]   Error: Cannot start listening...
+[2024-02-17 20:57:32]   Stopping Server
+[2024-02-17 20:57:39]   
+
+Starting Server
+
+
+[2024-02-17 20:57:39]   Error: Cannot start listening...
+[2024-02-17 20:57:39]   Stopping Server
+[2024-02-17 20:57:41]   
+
+Starting Server
+
+
+[2024-02-17 20:57:41]   Error: Cannot start listening...
+[2024-02-17 20:57:41]   Stopping Server
+[2024-02-17 20:57:43]   
+
+Starting Server
+
+
+[2024-02-17 20:57:43]   Error: Cannot start listening...
+[2024-02-17 20:57:43]   Stopping Server
+[2024-02-17 20:57:49]   
+
+Starting Server
+
+
+[2024-02-17 20:57:49]   Error: Cannot start listening...
+[2024-02-17 20:57:49]   Stopping Server
+[2024-02-17 20:57:50]   
+
+Starting Server
+
+
+[2024-02-17 20:57:50]   Error: Cannot start listening...
+[2024-02-17 20:57:50]   Stopping Server
+[2024-02-17 20:57:51]   
+
+Starting Server
+
+
+[2024-02-17 20:57:51]   Error: Cannot start listening...
+[2024-02-17 20:57:51]   Stopping Server
+[2024-02-17 20:57:51]   
+
+Starting Server
+
+
+[2024-02-17 20:57:51]   Error: Cannot start listening...
+[2024-02-17 20:57:51]   Stopping Server
+[2024-02-17 20:57:52]   
+
+Starting Server
+
+
+[2024-02-17 20:57:52]   Error: Cannot start listening...
+[2024-02-17 20:57:52]   Stopping Server
+[2024-02-17 20:57:53]   
+
+Starting Server
+
+
+[2024-02-17 20:57:53]   Error: Cannot start listening...
+[2024-02-17 20:57:53]   Stopping Server
+[2024-02-17 20:57:53]   
+
+Starting Server
+
+
+[2024-02-17 20:57:53]   Error: Cannot start listening...
+[2024-02-17 20:57:53]   Stopping Server
+[2024-02-17 20:57:54]   
+
+Starting Server
+
+
+[2024-02-17 20:57:54]   Error: Cannot start listening...
+[2024-02-17 20:57:54]   Stopping Server
+[2024-02-17 20:57:54]   
+
+Starting Server
+
+
+[2024-02-17 20:57:54]   Error: Cannot start listening...
+[2024-02-17 20:57:54]   Stopping Server
+[2024-02-17 20:58:40]   
+
+Starting Server
+
+
+[2024-02-17 20:58:40]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 20:59:12]   Request received from: 127.0.0.1 at port: 48272
+[2024-02-17 20:59:12]   HTTP Connection request
+[2024-02-17 20:59:12]  Error: forward request...sequence item 0: expected str instance, bytes found
+[2024-02-17 21:00:17]   Interrupting Server.
+[2024-02-17 21:00:17]   Stopping Server
+[2024-02-17 21:00:19]   
+
+Starting Server
+
+
+[2024-02-17 21:00:19]   Error: Cannot start listening...
+[2024-02-17 21:00:19]   Stopping Server
+[2024-02-17 21:00:20]   
+
+Starting Server
+
+
+[2024-02-17 21:00:20]   Error: Cannot start listening...
+[2024-02-17 21:00:20]   Stopping Server
+[2024-02-17 21:00:26]   
+
+Starting Server
+
+
+[2024-02-17 21:00:26]   Error: Cannot start listening...
+[2024-02-17 21:00:26]   Stopping Server
+[2024-02-17 21:00:27]   
+
+Starting Server
+
+
+[2024-02-17 21:00:27]   Error: Cannot start listening...
+[2024-02-17 21:00:27]   Stopping Server
+[2024-02-17 21:00:28]   
+
+Starting Server
+
+
+[2024-02-17 21:00:28]   Error: Cannot start listening...
+[2024-02-17 21:00:28]   Stopping Server
+[2024-02-17 21:00:29]   
+
+Starting Server
+
+
+[2024-02-17 21:00:29]   Error: Cannot start listening...
+[2024-02-17 21:00:29]   Stopping Server
+[2024-02-17 21:00:44]   
+
+Starting Server
+
+
+[2024-02-17 21:00:44]   Error: Cannot start listening...
+[2024-02-17 21:00:44]   Stopping Server
+[2024-02-17 21:00:45]   
+
+Starting Server
+
+
+[2024-02-17 21:00:45]   Error: Cannot start listening...
+[2024-02-17 21:00:45]   Stopping Server
+[2024-02-17 21:01:04]   
+
+Starting Server
+
+
+[2024-02-17 21:01:04]   Error: Cannot start listening...
+[2024-02-17 21:01:04]   Stopping Server
+[2024-02-17 21:01:05]   
+
+Starting Server
+
+
+[2024-02-17 21:01:05]   Error: Cannot start listening...
+[2024-02-17 21:01:05]   Stopping Server
+[2024-02-17 21:04:10]   
+
+Starting Server
+
+
+[2024-02-17 21:04:10]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:04:25]   Request received from: 127.0.0.1 at port: 43594
+[2024-02-17 21:04:25]   HTTP Connection request
+[2024-02-17 21:04:25]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:04:25]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:04:59]   Interrupting Server.
+[2024-02-17 21:05:00]   Stopping Server
