@@ -278,3 +278,119 @@ Starting Server
 [2024-02-17 21:04:25]  Request of client 127.0.0.1 completed...
 [2024-02-17 21:04:59]   Interrupting Server.
 [2024-02-17 21:05:00]   Stopping Server
+[2024-02-17 21:07:58]   
+
+Starting Server
+
+
+[2024-02-17 21:07:58]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:08:21]   Request received from: 127.0.0.1 at port: 56520
+[2024-02-17 21:08:21]   HTTP Connection request
+[2024-02-17 21:08:21]  Cache Hit
+[2024-02-17 21:08:56]   Request received from: 127.0.0.1 at port: 38892
+[2024-02-17 21:08:56]   HTTP Connection request
+[2024-02-17 21:08:56]  Error: forward request...sequence item 0: expected str instance, bytes found
+[2024-02-17 21:10:46]   Interrupting Server.
+[2024-02-17 21:10:46]   Stopping Server
+[2024-02-17 21:10:48]   
+
+Starting Server
+
+
+[2024-02-17 21:10:48]   Error: Cannot start listening...
+[2024-02-17 21:10:48]   Stopping Server
+[2024-02-17 21:10:49]   
+
+Starting Server
+
+
+[2024-02-17 21:10:49]   Error: Cannot start listening...
+[2024-02-17 21:10:49]   Stopping Server
+[2024-02-17 21:10:50]   
+
+Starting Server
+
+
+[2024-02-17 21:10:50]   Error: Cannot start listening...
+[2024-02-17 21:10:50]   Stopping Server
+[2024-02-17 21:10:51]   
+
+Starting Server
+
+
+[2024-02-17 21:10:51]   Error: Cannot start listening...
+[2024-02-17 21:10:51]   Stopping Server
+[2024-02-17 21:10:51]   
+
+Starting Server
+
+
+[2024-02-17 21:10:51]   Error: Cannot start listening...
+[2024-02-17 21:10:51]   Stopping Server
+[2024-02-17 21:10:52]   
+
+Starting Server
+
+
+[2024-02-17 21:10:52]   Error: Cannot start listening...
+[2024-02-17 21:10:52]   Stopping Server
+[2024-02-17 21:11:05]   
+
+Starting Server
+
+
+[2024-02-17 21:11:05]   Error: Cannot start listening...
+[2024-02-17 21:11:05]   Stopping Server
+[2024-02-17 21:11:06]   
+
+Starting Server
+
+
+[2024-02-17 21:11:06]   Error: Cannot start listening...
+[2024-02-17 21:11:06]   Stopping Server
+[2024-02-17 21:12:00]   
+
+Starting Server
+
+
+[2024-02-17 21:12:00]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:12:05]   Request received from: 127.0.0.1 at port: 39728
+[2024-02-17 21:12:05]   HTTP Connection request
+[2024-02-17 21:12:05]  Error: forward request...sequence item 0: expected str instance, bytes found
+[2024-02-17 21:14:23]   Interrupting Server.
+[2024-02-17 21:14:24]   Stopping Server
+[2024-02-17 21:14:25]   
+
+Starting Server
+
+
+[2024-02-17 21:14:25]   Error: Cannot start listening...
+[2024-02-17 21:14:25]   Stopping Server
+[2024-02-17 21:14:27]   
+
+Starting Server
+
+
+[2024-02-17 21:14:27]   Error: Cannot start listening...
+[2024-02-17 21:14:27]   Stopping Server
+[2024-02-17 21:14:28]   
+
+Starting Server
+
+
+[2024-02-17 21:14:28]   Error: Cannot start listening...
+[2024-02-17 21:14:28]   Stopping Server
+[2024-02-17 21:14:28]   
+
+Starting Server
+
+
+[2024-02-17 21:14:28]   Error: Cannot start listening...
+[2024-02-17 21:14:28]   Stopping Server
+[2024-02-17 21:14:29]   
+
+Starting Server
+
+
+[2024-02-17 21:14:29]   Error: Cannot start listening...
+[2024-02-17 21:14:29]   Stopping Server

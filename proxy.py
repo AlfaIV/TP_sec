@@ -10,7 +10,6 @@ Features: HTTP/HTTPS requests handling
 
 import socket, sys, datetime, time
 from _thread import start_new_thread
-from urllib.parse import urlparse
 
 
 class Server:
@@ -199,14 +198,28 @@ class Server:
             try:
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 s.connect((webserver, port))
-                s.send(request)
+                
+                newRequest = request.split(b'\n')
+                del newRequest[-3]
 
-                modifyRequest = urlparse(request)
-                print(self.getTimeStampp() + "!!!!!!!!HEADRES!!!!!!!!\n", request)
+                newURL = newRequest[0].split(b' ')
+                newURL[1] = b"/"
 
+                newRequest[0] = b" ".join(newURL)
+                
+                newRequest = b"\n".join(newRequest)
+
+                # print(self.getTimeStampp() + " new req \n", newRequest)
+                # print(self.getTimeStampp() + "!!!!!!!!HEADRES!!!!!!!!\n", request)
+
+                
+                s.send(newRequest)
+
+                
                 print(self.getTimeStampp() + "  Forwarding request from ", addr, " to ", webserver)
                 self.write_log(
                     self.getTimeStampp() + "  Forwarding request from " + addr[0] + " to host..." + str(webserver))
+                
                 # Makefile for socket
                 file_object = s.makefile('wb', 0)
                 file_object.write(b"GET " + b"http://" + requested_file + b" HTTP/1.0\n\n")
