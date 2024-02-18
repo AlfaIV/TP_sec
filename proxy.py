@@ -186,9 +186,9 @@ class Server:
             self.write_log(self.getTimeStampp() + "  Cache Hit")
             response_content = file_handler.read()
             file_handler.close()
-            response_headers = self.generate_header_lines(200, len(response_content))
-            conn.send(response_headers.encode("utf-8"))
-            time.sleep(1)
+            # response_headers = self.generate_header_lines(200, len(response_content))
+            # conn.send(response_headers.encode("utf-8"))
+            # time.sleep(1)
             conn.send(response_content)
             conn.close()
 

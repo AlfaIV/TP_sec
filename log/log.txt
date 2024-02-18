@@ -394,3 +394,1371 @@ Starting Server
 
 [2024-02-17 21:14:29]   Error: Cannot start listening...
 [2024-02-17 21:14:29]   Stopping Server
+[2024-02-17 21:14:34]   
+
+Starting Server
+
+
+[2024-02-17 21:14:34]   Error: Cannot start listening...
+[2024-02-17 21:14:34]   Stopping Server
+[2024-02-17 21:14:35]   
+
+Starting Server
+
+
+[2024-02-17 21:14:35]   Error: Cannot start listening...
+[2024-02-17 21:14:35]   Stopping Server
+[2024-02-17 21:14:36]   
+
+Starting Server
+
+
+[2024-02-17 21:14:36]   Error: Cannot start listening...
+[2024-02-17 21:14:36]   Stopping Server
+[2024-02-17 21:14:37]   
+
+Starting Server
+
+
+[2024-02-17 21:14:37]   Error: Cannot start listening...
+[2024-02-17 21:14:37]   Stopping Server
+[2024-02-17 21:14:37]   
+
+Starting Server
+
+
+[2024-02-17 21:14:37]   Error: Cannot start listening...
+[2024-02-17 21:14:37]   Stopping Server
+[2024-02-17 21:15:01]   
+
+Starting Server
+
+
+[2024-02-17 21:15:01]   Error: Cannot start listening...
+[2024-02-17 21:15:01]   Stopping Server
+[2024-02-17 21:15:02]   
+
+Starting Server
+
+
+[2024-02-17 21:15:02]   Error: Cannot start listening...
+[2024-02-17 21:15:02]   Stopping Server
+[2024-02-17 21:15:33]   
+
+Starting Server
+
+
+[2024-02-17 21:15:33]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:15:38]   Request received from: 127.0.0.1 at port: 34188
+[2024-02-17 21:15:38]   HTTP Connection request
+[2024-02-17 21:15:38]  Error: forward request...sequence item 0: expected str instance, bytes found
+[2024-02-17 21:18:46]   Interrupting Server.
+[2024-02-17 21:18:46]   Stopping Server
+[2024-02-17 21:18:48]   
+
+Starting Server
+
+
+[2024-02-17 21:18:48]   Error: Cannot start listening...
+[2024-02-17 21:18:48]   Stopping Server
+[2024-02-17 21:18:49]   
+
+Starting Server
+
+
+[2024-02-17 21:18:49]   Error: Cannot start listening...
+[2024-02-17 21:18:49]   Stopping Server
+[2024-02-17 21:18:50]   
+
+Starting Server
+
+
+[2024-02-17 21:18:50]   Error: Cannot start listening...
+[2024-02-17 21:18:50]   Stopping Server
+[2024-02-17 21:18:50]   
+
+Starting Server
+
+
+[2024-02-17 21:18:50]   Error: Cannot start listening...
+[2024-02-17 21:18:50]   Stopping Server
+[2024-02-17 21:20:30]   
+
+Starting Server
+
+
+[2024-02-17 21:20:30]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:20:34]   Request received from: 127.0.0.1 at port: 57636
+[2024-02-17 21:20:34]   HTTP Connection request
+[2024-02-17 21:20:34]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:20:34]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:21:04]   Interrupting Server.
+[2024-02-17 21:21:05]   Stopping Server
+[2024-02-17 21:21:12]   
+
+Starting Server
+
+
+[2024-02-17 21:21:12]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:21:15]   Request received from: 127.0.0.1 at port: 50708
+[2024-02-17 21:21:15]   HTTP Connection request
+[2024-02-17 21:21:15]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:21:15]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:24:02]   Interrupting Server.
+[2024-02-17 21:24:02]   Stopping Server
+[2024-02-17 21:24:07]   
+
+Starting Server
+
+
+[2024-02-17 21:24:07]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:24:10]   Request received from: 127.0.0.1 at port: 34194
+[2024-02-17 21:24:10]   HTTP Connection request
+[2024-02-17 21:24:10]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:24:10]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:26:09]   Interrupting Server.
+[2024-02-17 21:26:09]   Stopping Server
+[2024-02-17 21:26:14]   
+
+Starting Server
+
+
+[2024-02-17 21:26:14]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:26:17]   Request received from: 127.0.0.1 at port: 33368
+[2024-02-17 21:26:17]   HTTP Connection request
+[2024-02-17 21:26:17]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:26:17]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-17 21:27:23]   Request received from: 127.0.0.1 at port: 43510
+[2024-02-17 21:27:23]   HTTP Connection request
+[2024-02-17 21:27:23]  Cache Hit
+[2024-02-17 21:28:27]   Interrupting Server.
+[2024-02-17 21:28:28]   Stopping Server
+[2024-02-17 21:28:31]   
+
+Starting Server
+
+
+[2024-02-17 21:28:31]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:28:34]   Request received from: 127.0.0.1 at port: 40984
+[2024-02-17 21:28:34]   HTTP Connection request
+[2024-02-17 21:28:34]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:28:34]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:29:15]   Interrupting Server.
+[2024-02-17 21:29:16]   Stopping Server
+[2024-02-17 21:29:22]   
+
+Starting Server
+
+
+[2024-02-17 21:29:22]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:29:24]   Request received from: 127.0.0.1 at port: 33368
+[2024-02-17 21:29:24]   HTTP Connection request
+[2024-02-17 21:29:24]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:29:24]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:30:27]   Interrupting Server.
+[2024-02-17 21:30:27]   Stopping Server
+[2024-02-17 21:30:32]   
+
+Starting Server
+
+
+[2024-02-17 21:30:32]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:30:35]   Request received from: 127.0.0.1 at port: 52402
+[2024-02-17 21:30:35]   HTTP Connection request
+[2024-02-17 21:30:35]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:30:35]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-17 21:31:56]   Interrupting Server.
+[2024-02-17 21:31:57]   Stopping Server
+[2024-02-17 21:33:09]   
+
+Starting Server
+
+
+[2024-02-17 21:33:09]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:33:14]   Request received from: 127.0.0.1 at port: 43954
+[2024-02-17 21:33:14]   HTTP Connection request
+[2024-02-17 21:33:14]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:33:14]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-17 21:33:18]   Request received from: 127.0.0.1 at port: 36678
+[2024-02-17 21:33:18]   HTTP Connection request
+[2024-02-17 21:33:18]  Cache Hit
+[2024-02-17 21:33:53]   Interrupting Server.
+[2024-02-17 21:33:53]   Stopping Server
+[2024-02-17 21:33:57]   
+
+Starting Server
+
+
+[2024-02-17 21:33:57]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:34:00]   Request received from: 127.0.0.1 at port: 36820
+[2024-02-17 21:34:00]   HTTP Connection request
+[2024-02-17 21:34:00]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:34:00]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:34:59]   Interrupting Server.
+[2024-02-17 21:35:00]   Stopping Server
+[2024-02-17 21:35:04]   
+
+Starting Server
+
+
+[2024-02-17 21:35:04]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:35:07]   Request received from: 127.0.0.1 at port: 39234
+[2024-02-17 21:35:07]   HTTP Connection request
+[2024-02-17 21:35:07]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:35:07]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:35:32]   Request received from: 127.0.0.1 at port: 34102
+[2024-02-17 21:35:32]   HTTP Connection request
+[2024-02-17 21:35:32]  Cache Hit
+[2024-02-17 21:36:10]   Interrupting Server.
+[2024-02-17 21:36:11]   Stopping Server
+[2024-02-17 21:36:15]   
+
+Starting Server
+
+
+[2024-02-17 21:36:15]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:36:18]   Request received from: 127.0.0.1 at port: 50342
+[2024-02-17 21:36:18]   HTTP Connection request
+[2024-02-17 21:36:18]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:36:18]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:36:20]   Request received from: 127.0.0.1 at port: 50344
+[2024-02-17 21:36:20]   HTTP Connection request
+[2024-02-17 21:36:20]  Cache Hit
+[2024-02-17 21:36:52]   Interrupting Server.
+[2024-02-17 21:36:52]   Stopping Server
+[2024-02-17 21:36:57]   
+
+Starting Server
+
+
+[2024-02-17 21:36:57]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:37:00]   Request received from: 127.0.0.1 at port: 52190
+[2024-02-17 21:37:00]   HTTP Connection request
+[2024-02-17 21:37:00]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:37:00]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:40:37]   Request received from: 127.0.0.1 at port: 36818
+[2024-02-17 21:40:37]   HTTP Connection request
+[2024-02-17 21:40:37]  Cache Hit
+[2024-02-17 21:40:39]   Request received from: 127.0.0.1 at port: 36826
+[2024-02-17 21:40:39]   HTTP Connection request
+[2024-02-17 21:40:39]  Cache Hit
+[2024-02-17 21:40:40]   Request received from: 127.0.0.1 at port: 36834
+[2024-02-17 21:40:40]   HTTP Connection request
+[2024-02-17 21:40:40]  Cache Hit
+[2024-02-17 21:40:45]   Request received from: 127.0.0.1 at port: 36850
+[2024-02-17 21:40:45]   HTTP Connection request
+[2024-02-17 21:40:45]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:40:45]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:41:51]   Interrupting Server.
+[2024-02-17 21:41:52]   Stopping Server
+[2024-02-17 21:41:53]   
+
+Starting Server
+
+
+[2024-02-17 21:41:53]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:42:00]   Request received from: 127.0.0.1 at port: 41366
+[2024-02-17 21:42:00]   HTTP Connection request
+[2024-02-17 21:42:00]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:42:00]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:44:29]   Interrupting Server.
+[2024-02-17 21:44:30]   Stopping Server
+[2024-02-17 21:44:30]   
+
+Starting Server
+
+
+[2024-02-17 21:44:30]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:44:39]   Request received from: 127.0.0.1 at port: 40440
+[2024-02-17 21:44:39]   HTTP Connection request
+[2024-02-17 21:44:39]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:44:39]  Request of client 127.0.0.1 completed...
+[2024-02-17 21:45:05]   Interrupting Server.
+[2024-02-17 21:45:06]   Stopping Server
+[2024-02-17 21:45:07]   
+
+Starting Server
+
+
+[2024-02-17 21:45:07]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 21:45:11]   Request received from: 127.0.0.1 at port: 56090
+[2024-02-17 21:45:11]   HTTP Connection request
+[2024-02-17 21:45:11]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 21:45:11]  Request of client 127.0.0.1 completed...
+[2024-02-17 22:03:10]   Interrupting Server.
+[2024-02-17 22:03:11]   Stopping Server
+[2024-02-17 22:03:16]   
+
+Starting Server
+
+
+[2024-02-17 22:03:16]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 22:03:19]   Request received from: 127.0.0.1 at port: 39072
+[2024-02-17 22:03:19]   HTTP Connection request
+[2024-02-17 22:03:19]  Error: forward request...sequence item 1: expected a bytes-like object, str found
+[2024-02-17 22:03:29]   Interrupting Server.
+[2024-02-17 22:03:30]   Stopping Server
+[2024-02-17 22:03:31]   
+
+Starting Server
+
+
+[2024-02-17 22:03:31]   Error: Cannot start listening...
+[2024-02-17 22:03:31]   Stopping Server
+[2024-02-17 22:03:32]   
+
+Starting Server
+
+
+[2024-02-17 22:03:32]   Error: Cannot start listening...
+[2024-02-17 22:03:32]   Stopping Server
+[2024-02-17 22:04:27]   
+
+Starting Server
+
+
+[2024-02-17 22:04:27]   Error: Cannot start listening...
+[2024-02-17 22:04:27]   Stopping Server
+[2024-02-17 22:04:28]   
+
+Starting Server
+
+
+[2024-02-17 22:04:28]   Error: Cannot start listening...
+[2024-02-17 22:04:28]   Stopping Server
+[2024-02-17 22:04:29]   
+
+Starting Server
+
+
+[2024-02-17 22:04:29]   Error: Cannot start listening...
+[2024-02-17 22:04:29]   Stopping Server
+[2024-02-17 22:04:30]   
+
+Starting Server
+
+
+[2024-02-17 22:04:30]   Error: Cannot start listening...
+[2024-02-17 22:04:30]   Stopping Server
+[2024-02-17 22:04:32]   
+
+Starting Server
+
+
+[2024-02-17 22:04:32]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 22:04:35]   Request received from: 127.0.0.1 at port: 58176
+[2024-02-17 22:04:35]   HTTP Connection request
+[2024-02-17 22:04:35]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 22:04:35]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-17 22:05:14]   Request received from: 127.0.0.1 at port: 56468
+[2024-02-17 22:05:14]   HTTP Connection request
+[2024-02-17 22:05:14]  Cache Hit
+[2024-02-17 22:05:16]   Request received from: 127.0.0.1 at port: 56480
+[2024-02-17 22:05:16]   HTTP Connection request
+[2024-02-17 22:05:16]  Cache Hit
+[2024-02-17 22:05:46]   Interrupting Server.
+[2024-02-17 22:05:47]   Stopping Server
+[2024-02-17 22:10:18]   
+
+Starting Server
+
+
+[2024-02-17 22:10:18]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 22:10:24]   Request received from: 127.0.0.1 at port: 51916
+[2024-02-17 22:10:24]   HTTP Connection request
+[2024-02-17 22:10:24]  Cache Hit
+[2024-02-17 22:10:24]   Request received from: 127.0.0.1 at port: 51928
+[2024-02-17 22:10:24]   HTTP Connection request
+[2024-02-17 22:10:24]  Cache Hit
+[2024-02-17 22:10:25]   Request received from: 127.0.0.1 at port: 51936
+[2024-02-17 22:10:25]   HTTP Connection request
+[2024-02-17 22:10:25]  Cache Hit
+[2024-02-17 22:10:26]   Request received from: 127.0.0.1 at port: 51944
+[2024-02-17 22:10:26]   HTTP Connection request
+[2024-02-17 22:10:26]  Cache Hit
+[2024-02-17 22:10:26]   Request received from: 127.0.0.1 at port: 36306
+[2024-02-17 22:10:26]   HTTP Connection request
+[2024-02-17 22:10:26]  Cache Hit
+[2024-02-17 22:10:31]   Request received from: 127.0.0.1 at port: 36322
+[2024-02-17 22:10:31]   HTTP Connection request
+[2024-02-17 22:10:31]  Cache Hit
+[2024-02-17 22:11:09]   Request received from: 127.0.0.1 at port: 43278
+[2024-02-17 22:11:09]   HTTP Connection request
+[2024-02-17 22:11:09]  Cache Hit
+[2024-02-17 22:11:12]   Interrupting Server.
+[2024-02-17 22:11:12]   Stopping Server
+[2024-02-17 22:11:13]   
+
+Starting Server
+
+
+[2024-02-17 22:11:13]   Error: Cannot start listening...
+[2024-02-17 22:11:13]   Stopping Server
+[2024-02-17 22:11:15]   
+
+Starting Server
+
+
+[2024-02-17 22:11:15]   Error: Cannot start listening...
+[2024-02-17 22:11:15]   Stopping Server
+[2024-02-17 22:11:17]   
+
+Starting Server
+
+
+[2024-02-17 22:11:17]   Error: Cannot start listening...
+[2024-02-17 22:11:17]   Stopping Server
+[2024-02-17 22:11:21]   
+
+Starting Server
+
+
+[2024-02-17 22:11:21]   Error: Cannot start listening...
+[2024-02-17 22:11:21]   Stopping Server
+[2024-02-17 22:11:23]   
+
+Starting Server
+
+
+[2024-02-17 22:11:23]   Error: Cannot start listening...
+[2024-02-17 22:11:23]   Stopping Server
+[2024-02-17 22:11:27]   
+
+Starting Server
+
+
+[2024-02-17 22:11:27]   Error: Cannot start listening...
+[2024-02-17 22:11:27]   Stopping Server
+[2024-02-17 22:11:28]   
+
+Starting Server
+
+
+[2024-02-17 22:11:28]   Error: Cannot start listening...
+[2024-02-17 22:11:28]   Stopping Server
+[2024-02-17 22:11:35]   
+
+Starting Server
+
+
+[2024-02-17 22:11:35]   Error: Cannot start listening...
+[2024-02-17 22:11:35]   Stopping Server
+[2024-02-17 22:11:37]   
+
+Starting Server
+
+
+[2024-02-17 22:11:37]   Error: Cannot start listening...
+[2024-02-17 22:11:37]   Stopping Server
+[2024-02-17 22:15:14]   
+
+Starting Server
+
+
+[2024-02-17 22:15:14]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 22:15:17]   Request received from: 127.0.0.1 at port: 41838
+[2024-02-17 22:15:17]   HTTP Connection request
+[2024-02-17 22:15:17]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 22:15:17]  Request of client 127.0.0.1 completed...
+[2024-02-17 22:15:46]   Interrupting Server.
+[2024-02-17 22:15:47]   Stopping Server
+[2024-02-17 22:15:48]   
+
+Starting Server
+
+
+[2024-02-17 22:15:48]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-17 22:15:52]   Request received from: 127.0.0.1 at port: 40326
+[2024-02-17 22:15:52]   HTTP Connection request
+[2024-02-17 22:15:52]  Cache Hit
+[2024-02-17 22:16:00]   Request received from: 127.0.0.1 at port: 41818
+[2024-02-17 22:16:00]   HTTP Connection request
+[2024-02-17 22:16:00]  Cache Hit
+[2024-02-17 22:16:12]   Request received from: 127.0.0.1 at port: 55614
+[2024-02-17 22:16:12]   HTTP Connection request
+[2024-02-17 22:16:12]  Cache Hit
+[2024-02-17 22:16:16]   Request received from: 127.0.0.1 at port: 55628
+[2024-02-17 22:16:16]   HTTP Connection request
+[2024-02-17 22:16:16]  Cache Hit
+[2024-02-17 22:21:55]   Request received from: 127.0.0.1 at port: 50816
+[2024-02-17 22:21:55]   HTTP Connection request
+[2024-02-17 22:21:55]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
+[2024-02-17 22:21:55]  Request of client 127.0.0.1 completed...
+[2024-02-17 22:22:00]   Request received from: 127.0.0.1 at port: 57278
+[2024-02-17 22:22:00]   HTTPS Connection request
+[2024-02-17 22:22:00]  HTTPS Connection Established
+[2024-02-17 22:25:54]   Request received from: 127.0.0.1 at port: 48594
+[2024-02-17 22:25:54]   HTTPS Connection request
+[2024-02-17 22:25:54]  HTTPS Connection Established
+[2024-02-17 22:27:01]   Request received from: 127.0.0.1 at port: 48630
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33512
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33526
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33540
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33544
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33552
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33558
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33562
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33572
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33574
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33590
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33606
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33620
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33622
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33634
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33642
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33652
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33666
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33674
+[2024-02-17 22:27:13]   Request received from: 127.0.0.1 at port: 33680
+[2024-02-17 22:27:18]   Request received from: 127.0.0.1 at port: 35456
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46940
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46942
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46958
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46970
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46982
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 46986
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47002
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47008
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47010
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47020
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47030
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47034
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47044
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47052
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47062
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47074
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47076
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47080
+[2024-02-17 22:27:28]   Request received from: 127.0.0.1 at port: 47086
+[2024-02-17 22:27:49]   Request received from: 127.0.0.1 at port: 33492
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53490
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53504
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53514
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53528
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53540
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53556
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53566
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53570
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53574
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53588
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53592
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53600
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53612
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53616
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53624
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53632
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53644
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53658
+[2024-02-17 22:28:47]   Request received from: 127.0.0.1 at port: 53668
+[2024-02-17 22:30:14]   Request received from: 127.0.0.1 at port: 57242
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55740
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55746
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55760
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55768
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55782
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55794
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55810
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55814
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55824
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55840
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55848
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55852
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55854
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55868
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55876
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55882
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55884
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55886
+[2024-02-17 22:32:58]   Request received from: 127.0.0.1 at port: 55898
+[2024-02-17 22:38:14]   Request received from: 127.0.0.1 at port: 45456
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39488
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39504
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39520
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39530
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39538
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39542
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39550
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39552
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39558
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39572
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39578
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39586
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39600
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39612
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39616
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39622
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39630
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39638
+[2024-02-17 22:43:15]   Request received from: 127.0.0.1 at port: 39654
+[2024-02-17 22:48:16]   Request received from: 127.0.0.1 at port: 41550
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53934
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53940
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53954
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53964
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53968
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53972
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53984
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53986
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 53994
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54006
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54010
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54020
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54028
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54034
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54038
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54054
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54060
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54072
+[2024-02-17 22:53:17]   Request received from: 127.0.0.1 at port: 54084
+[2024-02-17 22:57:18]   Interrupting Server.
+[2024-02-17 22:57:18]   Stopping Server
+[2024-02-18 10:40:38]   
+
+Starting Server
+
+
+[2024-02-18 10:40:38]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2024-02-18 10:40:47]   Request received from: 127.0.0.1 at port: 44852
+[2024-02-18 10:40:47]   HTTPS Connection request
+[2024-02-18 10:40:47]   Request received from: 127.0.0.1 at port: 44856
+[2024-02-18 10:40:47]   HTTPS Connection request
+[2024-02-18 10:40:47]  HTTPS Connection Established
+[2024-02-18 10:40:47]  HTTPS Connection Established
+[2024-02-18 10:40:47]   Request received from: 127.0.0.1 at port: 44866
+[2024-02-18 10:40:47]   HTTP Connection request
+[2024-02-18 10:40:47]   Request received from: 127.0.0.1 at port: 44870
+[2024-02-18 10:40:47]  Forwarding request from 127.0.0.1 to host...b'ocsp.pki.goog'
+[2024-02-18 10:40:47]  Error: forward request...[Errno 104] Connection reset by peer
+[2024-02-18 10:40:54]   Request received from: 127.0.0.1 at port: 50182
+[2024-02-18 10:40:54]   HTTPS Connection request
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50196
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50198
+[2024-02-18 10:40:55]   HTTP Connection request
+[2024-02-18 10:40:55]  Forwarding request from 127.0.0.1 to host...b'ocsp.globalsign.com'
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50214
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50230
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50242
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50250
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50264
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50276
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50284
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50290
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50298
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50312
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50316
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50318
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]   HTTPS Connection request
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50328
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]  HTTPS Connection Established
+[2024-02-18 10:40:55]   Request received from: 127.0.0.1 at port: 50340
+[2024-02-18 10:40:55]   HTTP Connection request
+[2024-02-18 10:40:55]  Forwarding request from 127.0.0.1 to host...b'ocsp.globalsign.com'
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50346
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50356
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50368
+[2024-02-18 10:40:56]   HTTP Connection request
+[2024-02-18 10:40:56]  Cache Hit
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50370
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50374
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50390
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50392
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50404
+[2024-02-18 10:40:56]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50414
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50426
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50428
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50436
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50442
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50458
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50462
+[2024-02-18 10:40:56]   HTTP Connection request
+[2024-02-18 10:40:56]  Cache Hit
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50476
+[2024-02-18 10:40:56]   HTTP Connection request
+[2024-02-18 10:40:56]  Cache Hit
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50486
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50490
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50506
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50518
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50530
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50546
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50554
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50556
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50562
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50576
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   HTTP Connection request
+[2024-02-18 10:40:56]  Cache Hit
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50590
+[2024-02-18 10:40:56]   HTTPS Connection request
+[2024-02-18 10:40:56]  HTTPS Connection Established
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50602
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50610
+[2024-02-18 10:40:56]   Request received from: 127.0.0.1 at port: 50624
+[2024-02-18 10:40:56]   HTTP Connection request
+[2024-02-18 10:40:56]  Cache Hit
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50630
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50640
+[2024-02-18 10:40:57]   HTTPS Connection request
+[2024-02-18 10:40:57]  HTTPS Connection Established
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50644
+[2024-02-18 10:40:57]   HTTP Connection request
+[2024-02-18 10:40:57]  Cache Hit
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50652
+[2024-02-18 10:40:57]   HTTPS Connection request
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50662
+[2024-02-18 10:40:57]  HTTPS Connection Established
+[2024-02-18 10:40:57]   Request received from: 127.0.0.1 at port: 50668
+[2024-02-18 10:40:57]   HTTP Connection request
+[2024-02-18 10:40:57]  Cache Hit
+[2024-02-18 10:40:59]   Request received from: 127.0.0.1 at port: 50674
+[2024-02-18 10:40:59]   HTTPS Connection request
+[2024-02-18 10:40:59]   Request received from: 127.0.0.1 at port: 50690
+[2024-02-18 10:40:59]  HTTPS Connection Established
+[2024-02-18 10:40:59]   Request received from: 127.0.0.1 at port: 50702
+[2024-02-18 10:40:59]   HTTP Connection request
+[2024-02-18 10:40:59]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50704
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50710
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50724
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50736
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50752
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50768
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50776
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50778
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50780
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50792
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50796
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50808
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50810
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50832
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50838
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50874
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50900
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50914
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50920
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50930
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50936
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50938
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50940
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50948
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50960
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50976
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50988
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 50992
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51002
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51004
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51016
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51030
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51042
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51044
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51050
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51056
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51068
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51076
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51080
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51084
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51092
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51102
+[2024-02-18 10:41:00]   HTTPS Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51106
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]  HTTPS Connection Established
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51120
+[2024-02-18 10:41:00]   HTTP Connection request
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51132
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51138
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51148
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]  Cache Hit
+[2024-02-18 10:41:00]   Request received from: 127.0.0.1 at port: 51166
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51170
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51174
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]  Cache Hit
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51182
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51190
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51204
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51216
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51220
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51224
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51234
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51248
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51260
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51262
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51274
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51288
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 50830
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51294
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 50884
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51306
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51310
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51312
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51314
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51328
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51342
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51358
+[2024-02-18 10:41:01]  Cache Hit
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51374
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51380
+[2024-02-18 10:41:01]  Forwarding request from 127.0.0.1 to host...b'r3.o.lencr.org'
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]   HTTPS Connection request
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]  Forwarding request from 127.0.0.1 to host...b'r3.o.lencr.org'
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51388
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  Forwarding request from 127.0.0.1 to host...b'r3.o.lencr.org'
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]  HTTPS Connection Established
+[2024-02-18 10:41:01]  Forwarding request from 127.0.0.1 to host...b'r3.o.lencr.org'
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51396
+[2024-02-18 10:41:01]   HTTP Connection request
+[2024-02-18 10:41:01]   Request received from: 127.0.0.1 at port: 51150
+[2024-02-18 10:41:01]  Forwarding request from 127.0.0.1 to host...b'r3.o.lencr.org'
+[2024-02-18 10:41:03]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51400
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51402
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51414
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51420
+[2024-02-18 10:41:03]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:03]   HTTP Connection request
+[2024-02-18 10:41:03]  Cache Hit
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51428
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51440
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51450
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51456
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51466
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51476
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51492
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51498
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51506
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51522
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51528
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   HTTPS Connection request
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   HTTP Connection request
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]   HTTP Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51534
+[2024-02-18 10:41:03]   HTTP Connection request
+[2024-02-18 10:41:03]   Request received from: 127.0.0.1 at port: 51544
+[2024-02-18 10:41:03]  HTTPS Connection Established
+[2024-02-18 10:41:03]  Cache Hit
+[2024-02-18 10:41:04]  Cache Hit
+[2024-02-18 10:41:04]   HTTP Connection request
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   HTTP Connection request
+[2024-02-18 10:41:04]  Cache Hit
+[2024-02-18 10:41:04]  Cache Hit
+[2024-02-18 10:41:04]  Cache Hit
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51552
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51566
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51570
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51578
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51588
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51598
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51610
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51624
+[2024-02-18 10:41:04]   Request received from: 127.0.0.1 at port: 51626
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]   HTTPS Connection request
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:04]  HTTPS Connection Established
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43568
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43576
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43578
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43594
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43606
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]   HTTP Connection request
+[2024-02-18 10:41:05]  Forwarding request from 127.0.0.1 to host...b'ocsp.globalsign.com'
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43616
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43628
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43634
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]   HTTPS Connection request
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43644
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43656
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43672
+[2024-02-18 10:41:05]  HTTPS Connection Established
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43682
+[2024-02-18 10:41:05]   Request received from: 127.0.0.1 at port: 43694
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43710
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43712
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43714
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43716
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43720
+[2024-02-18 10:41:06]   HTTP Connection request
+[2024-02-18 10:41:06]   HTTP Connection request
+[2024-02-18 10:41:06]  Cache Hit
+[2024-02-18 10:41:06]  Cache Hit
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43730
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43732
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43742
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43746
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43750
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43758
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43764
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43770
+[2024-02-18 10:41:06]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43782
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43788
+[2024-02-18 10:41:06]  HTTPS Connection Established
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43790
+[2024-02-18 10:41:06]   Request received from: 127.0.0.1 at port: 43800
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:06]   HTTPS Connection request
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43816
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43818
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43830
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43838
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   HTTP Connection request
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43848
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43860
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43868
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43870
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43872
+[2024-02-18 10:41:07]  Cache Hit
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43884
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43932
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43978
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43982
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 43998
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 44010
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   HTTP Connection request
+[2024-02-18 10:41:07]   HTTP Connection request
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 44020
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]  Cache Hit
+[2024-02-18 10:41:07]  Cache Hit
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]   Request received from: 127.0.0.1 at port: 44022
+[2024-02-18 10:41:07]   HTTPS Connection request
+[2024-02-18 10:41:07]   HTTP Connection request
+[2024-02-18 10:41:07]   HTTP Connection request
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]  HTTPS Connection Established
+[2024-02-18 10:41:07]  Cache Hit
+[2024-02-18 10:41:07]  Cache Hit
+[2024-02-18 10:41:08]   Request received from: 127.0.0.1 at port: 43916
+[2024-02-18 10:41:08]   Request received from: 127.0.0.1 at port: 44024
+[2024-02-18 10:41:09]   Request received from: 127.0.0.1 at port: 44034
+[2024-02-18 10:41:09]   HTTPS Connection request
+[2024-02-18 10:41:09]  HTTPS Connection Established
+[2024-02-18 10:41:09]   Request received from: 127.0.0.1 at port: 44044
+[2024-02-18 10:41:09]   HTTPS Connection request
+[2024-02-18 10:41:09]  HTTPS Connection Established
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44048
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44050
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44066
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44082
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44086
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44102
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44106
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44154
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44196
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44198
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44200
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44214
+[2024-02-18 10:41:10]   Request received from: 127.0.0.1 at port: 44220
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]   HTTPS Connection request
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:10]  HTTPS Connection Established
+[2024-02-18 10:41:11]   Request received from: 127.0.0.1 at port: 44234
+[2024-02-18 10:41:11]   HTTPS Connection request
+[2024-02-18 10:41:11]   Request received from: 127.0.0.1 at port: 44246
+[2024-02-18 10:41:11]  HTTPS Connection Established
+[2024-02-18 10:41:14]   Request received from: 127.0.0.1 at port: 44258
+[2024-02-18 10:41:14]   HTTPS Connection request
+[2024-02-18 10:41:14]  HTTPS Connection Established
+[2024-02-18 10:41:14]   Request received from: 127.0.0.1 at port: 37248
+[2024-02-18 10:41:14]   Request received from: 127.0.0.1 at port: 37252
+[2024-02-18 10:41:14]   HTTPS Connection request
+[2024-02-18 10:41:14]  HTTPS Connection Established
+[2024-02-18 10:41:14]   Request received from: 127.0.0.1 at port: 37256
+[2024-02-18 10:41:14]   HTTP Connection request
+[2024-02-18 10:41:14]  Cache Hit
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37260
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37268
+[2024-02-18 10:41:16]   HTTPS Connection request
+[2024-02-18 10:41:16]   HTTPS Connection request
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37282
+[2024-02-18 10:41:16]  HTTPS Connection Established
+[2024-02-18 10:41:16]  HTTPS Connection Established
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37284
+[2024-02-18 10:41:16]   HTTP Connection request
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37300
+[2024-02-18 10:41:16]  Cache Hit
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37312
+[2024-02-18 10:41:16]   HTTPS Connection request
+[2024-02-18 10:41:16]   HTTP Connection request
+[2024-02-18 10:41:16]  HTTPS Connection Established
+[2024-02-18 10:41:16]  Cache Hit
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37318
+[2024-02-18 10:41:16]   Request received from: 127.0.0.1 at port: 37320
+[2024-02-18 10:41:17]   HTTPS Connection request
+[2024-02-18 10:41:17]  HTTPS Connection Established
+[2024-02-18 10:41:17]   Request received from: 127.0.0.1 at port: 37328
+[2024-02-18 10:41:17]   HTTP Connection request
+[2024-02-18 10:41:17]  Cache Hit
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37330
+[2024-02-18 10:41:18]   HTTPS Connection request
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37346
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37352
+[2024-02-18 10:41:18]  HTTPS Connection Established
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37360
+[2024-02-18 10:41:18]   HTTPS Connection request
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37370
+[2024-02-18 10:41:18]  HTTPS Connection Established
+[2024-02-18 10:41:18]   HTTPS Connection request
+[2024-02-18 10:41:18]  HTTPS Connection Established
+[2024-02-18 10:41:18]   Request received from: 127.0.0.1 at port: 37384
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37392
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37404
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37416
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37420
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37436
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37438
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37448
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]   Request received from: 127.0.0.1 at port: 37456
+[2024-02-18 10:41:19]   HTTPS Connection request
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:19]  HTTPS Connection Established
+[2024-02-18 10:41:20]   Request received from: 127.0.0.1 at port: 37462
+[2024-02-18 10:41:20]   HTTP Connection request
+[2024-02-18 10:41:20]  Cache Hit
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37472
+[2024-02-18 10:41:21]   HTTPS Connection request
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37484
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37498
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37500
+[2024-02-18 10:41:21]   HTTPS Connection request
+[2024-02-18 10:41:21]  HTTPS Connection Established
+[2024-02-18 10:41:21]  HTTPS Connection Established
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37508
+[2024-02-18 10:41:21]   HTTPS Connection request
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37518
+[2024-02-18 10:41:21]  HTTPS Connection Established
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37530
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37546
+[2024-02-18 10:41:21]   HTTPS Connection request
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37556
+[2024-02-18 10:41:21]   HTTP Connection request
+[2024-02-18 10:41:21]  HTTPS Connection Established
+[2024-02-18 10:41:21]   HTTP Connection request
+[2024-02-18 10:41:21]  Cache Hit
+[2024-02-18 10:41:21]  Forwarding request from 127.0.0.1 to host...b'detectportal.firefox.com'
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37568
+[2024-02-18 10:41:21]   Request received from: 127.0.0.1 at port: 37584
+[2024-02-18 10:41:21]   HTTPS Connection request
+[2024-02-18 10:41:22]   HTTPS Connection request
+[2024-02-18 10:41:22]   Request received from: 127.0.0.1 at port: 37596
+[2024-02-18 10:41:22]   HTTPS Connection request
+[2024-02-18 10:41:22]  Error: forward request...[Errno 32] Broken pipe
+[2024-02-18 10:41:22]   Request received from: 127.0.0.1 at port: 37608
+[2024-02-18 10:41:22]   Request received from: 127.0.0.1 at port: 37610
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:22]   HTTPS Connection request
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:22]   Request received from: 127.0.0.1 at port: 37620
+[2024-02-18 10:41:22]   HTTPS Connection request
+[2024-02-18 10:41:22]   HTTPS Connection request
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:22]  HTTPS Connection Established
+[2024-02-18 10:41:24]   Request received from: 127.0.0.1 at port: 40428
+[2024-02-18 10:41:24]   Request received from: 127.0.0.1 at port: 40442
+[2024-02-18 10:41:24]   HTTPS Connection request
+[2024-02-18 10:41:24]   Request received from: 127.0.0.1 at port: 40444
+[2024-02-18 10:41:24]   HTTPS Connection request
+[2024-02-18 10:41:24]   Request received from: 127.0.0.1 at port: 40456
+[2024-02-18 10:41:24]  HTTPS Connection Established
+[2024-02-18 10:41:24]  HTTPS Connection Established
+[2024-02-18 10:41:25]   Request received from: 127.0.0.1 at port: 40466
+[2024-02-18 10:41:25]   HTTP Connection request
+[2024-02-18 10:41:25]  Cache Hit
+[2024-02-18 10:41:26]   Request received from: 127.0.0.1 at port: 40468
+[2024-02-18 10:41:26]   HTTPS Connection request
+[2024-02-18 10:41:26]   Request received from: 127.0.0.1 at port: 40480
+[2024-02-18 10:41:28]   Request received from: 127.0.0.1 at port: 40486
+[2024-02-18 10:41:28]   HTTP Connection request
+[2024-02-18 10:41:28]  Cache Hit
+[2024-02-18 10:41:28]   Request received from: 127.0.0.1 at port: 40496
+[2024-02-18 10:41:31]   Request received from: 127.0.0.1 at port: 40510
+[2024-02-18 10:41:31]   HTTP Connection request
+[2024-02-18 10:41:31]  Cache Hit
+[2024-02-18 10:41:35]   Request received from: 127.0.0.1 at port: 45678
+[2024-02-18 10:41:35]   HTTP Connection request
+[2024-02-18 10:41:35]  Cache Hit
+[2024-02-18 10:41:38]   Request received from: 127.0.0.1 at port: 45686
+[2024-02-18 10:41:38]   HTTP Connection request
+[2024-02-18 10:41:38]  Cache Hit
+[2024-02-18 10:41:42]   Request received from: 127.0.0.1 at port: 45692
+[2024-02-18 10:41:42]   HTTP Connection request
+[2024-02-18 10:41:42]  Cache Hit
+[2024-02-18 10:41:45]   Request received from: 127.0.0.1 at port: 56570
+[2024-02-18 10:41:45]   HTTP Connection request
+[2024-02-18 10:41:45]  Cache Hit
+[2024-02-18 10:41:48]   Request received from: 127.0.0.1 at port: 56580
+[2024-02-18 10:41:49]   HTTP Connection request
+[2024-02-18 10:41:49]  Cache Hit
+[2024-02-18 10:41:52]   Interrupting Server.
+[2024-02-18 10:41:52]   Stopping Server
