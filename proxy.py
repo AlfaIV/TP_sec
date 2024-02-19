@@ -8,9 +8,8 @@ Features: HTTP/HTTPS requests handling
 '''
 
 
-import socket, sys, datetime, time
+import socket, sys, datetime, time, sqlite3, json
 from _thread import start_new_thread
-
 
 class Server:
     # Constructors initializing basic architecture
@@ -21,6 +20,7 @@ class Server:
         self.port = 0
         self.blacklisted_ip_lookup = blacklisted_ips
         self.blacklist_websites_lookup = blacklist_websites
+        self.db_name = "proxy.db"
 
     # Function to write log
     def write_log(self, msg):
@@ -31,12 +31,31 @@ class Server:
     # Helper Function to get Time Stamp
     def getTimeStampp(self):
         return "[" + str(datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')) + "]"
+    
+    def start_db(self):
+        # Устанавливаем соединение с базой данных
+        db = sqlite3.connect(self.db_name)
+        cursor = db.cursor()
+
+        # Создаем таблицу Users
+        cursor.execute('''
+        CREATE TABLE IF NOT EXISTS requests (
+        id INTEGER PRIMARY KEY,
+        datetime TEXT NOT NULL,
+        parse_request JSON NOT NULL,
+        row_request JSON NOT NULL
+        )
+        ''')
+
+        # Сохраняем изменения и закрываем соединение
+        db.commit()
+        db.close()
 
     # Function which triggers the server
     def start_server(self, conn=5, buffer=4096, port=8080):
         try:
             self.write_log(self.getTimeStampp() + "   \n\nStarting Server\n\n")
-
+            self.start_db()
             self.listen(conn, buffer, port)
 
         except KeyboardInterrupt:
@@ -98,12 +117,58 @@ class Server:
         h += 'Connection: close\n\n'
 
         return h
+    
+    def parse_request(self, request):
+        try:
+            split_requset = request.split(b'\n')
+
+            headers = {}
+            cookies = {}
+            for field in split_requset:
+                if (field.split(b' ')[0] == b'Host:'):
+                    headers['Host'] = field.split(b' ')[1][:-1].decode('utf-8')
+                if (field.split(b' ')[0] == b'Header:'):
+                    headers['Header'] = field.split(b' ')[1][:-1].decode('utf-8')
+                if (field.split(b' ')[0] == b'Cookie:'):
+                    for cookie in field.split(b' ')[1:]:
+                        cookies[cookie.split(b'=')[0].decode('utf-8')] = cookie.split(b'=')[1][:-1].decode('utf-8')
+            
+            get_params = {}
+            get_params_index = split_requset[0].split(b' ')[1].find(b'?')
+
+            if (get_params_index == -1):
+                path = split_requset[0].split(b' ')[1].decode('utf-8')
+            else:
+                path = split_requset[0].split(b' ')[:get_params_index].decode('utf-8')
+                for param in split_requset[0].split(b' ')[get_params_index + 1:].split(b'&'):
+                    get_params[param.split(b'=')[0].decode('utf-8')] = param.split(b'=')[1].decode('utf-8')
+
+
+            method  = split_requset[0].split(b' ')[0].decode('utf-8')
+
+            parse_requset = {
+                "method": method,
+                "path": path,
+                "get_params": get_params,
+                "headers": headers,
+                "cookies": cookies
+            }
+            
+            json_parse_requset = json.dumps(parse_requset)
+            return json_parse_requset
+        
+        except Exception as e:
+            print("Parsce error:", str(e))
+            return None
+
+
 
     # Function to read request data
     def connection_read_request(self, conn, addr, buffer):
         # Try to split necessary info from the header
         try:
             request = conn.recv(buffer)
+
             header = request.split(b'\n')[0]
             requested_file = request
             requested_file = requested_file.split(b' ')
@@ -139,6 +204,21 @@ class Server:
             # Stripping method to find if HTTPS (CONNECT) or HTTP (GET)
             method = request.split(b" ")[0]
 
+            try:
+                
+                db = sqlite3.connect(self.db_name)
+                cursor = db.cursor()
+
+                db_data = self.parse_request(request)
+                
+                if (db_data):
+                    cursor.execute('''INSERT INTO requests (datetime, parse_request, row_request) VALUES (?, ?, ?)''', (self.getTimeStampp(), db_data, request.decode('utf-8')))
+
+                db.commit()
+                db.close()
+            except Exception as err:
+                print("DataBase error:", str(err))
+
             # Checking for blacklisted ips
             if addr[0] in self.blacklisted_ip_lookup:
                 print(self.getTimeStampp() + "    IP Blacklisted")
@@ -168,7 +248,7 @@ class Server:
                 self.write_log(self.getTimeStampp() + "   HTTP Connection request")
                 self.http_proxy(webserver, port, conn, request, addr, buffer, requested_file)
 
-        except Exception as e:
+        except Exception as err:
             # print(self.getTimeStampp() + "  Error: Cannot read connection request..." + str(e))
             # self.write_log(self.getTimeStampp() + "  Error: Cannot read connection request..." + str(e))
             return
@@ -198,6 +278,9 @@ class Server:
             try:
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 s.connect((webserver, port))
+                # Создаем подключение к базе данных (файл my_database.db будет создан)
+                db = sqlite3.connect(self.db_name)
+            
                 
                 newRequest = request.split(b'\n')
                 del newRequest[-3]
@@ -208,11 +291,7 @@ class Server:
                 newRequest[0] = b" ".join(newURL)
                 
                 newRequest = b"\n".join(newRequest)
-
-                # print(self.getTimeStampp() + " new req \n", newRequest)
-                # print(self.getTimeStampp() + "!!!!!!!!HEADRES!!!!!!!!\n", request)
-
-                
+               
                 s.send(newRequest)
 
                 
@@ -233,7 +312,9 @@ class Server:
 
                 print(self.getTimeStampp() + "  Request of client " + str(addr) + " completed...")
                 self.write_log(self.getTimeStampp() + "  Request of client " + str(addr[0]) + " completed...")
+                
                 s.close()
+                db.close()
                 conn.close()
 
             except Exception as e:
@@ -255,9 +336,9 @@ class Server:
             self.write_log(self.getTimeStampp() + "  Cache Hit\n")
             response_content = file_handler.read()
             file_handler.close()
-            response_headers = self.generate_header_lines(200, len(response_content))
-            conn.send(response_headers.encode("utf-8"))
-            time.sleep(1)
+            # response_headers = self.generate_header_lines(200, len(response_content))
+            # conn.send(response_headers.encode("utf-8"))
+            # time.sleep(1)
             conn.send(response_content)
             conn.close()
 

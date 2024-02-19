@@ -1,17 +1,15 @@
 HTTP/1.1 301 Moved Permanently
-Date: Sun, 18 Feb 2024 07:40:56 GMT
+Date: Mon, 19 Feb 2024 18:07:59 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
 Location: https://www.globalsign.com/
 Cache-Control: max-age=180, public, no-transform, must-revalidate
-CF-Cache-Status: HIT
-Age: 3415
+CF-Cache-Status: EXPIRED
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 85749ff1f88003eb-DME
+CF-RAY: 858073dd99609db1-DME
 
 <html>
 <head><title>301 Moved Permanently</title></head>
 <body>
-<center><h1>301 Moved Permanently</h1></center>
