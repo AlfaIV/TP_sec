@@ -39,11 +39,13 @@ class Server:
 
         # Создаем таблицу Users
         cursor.execute('''
-        CREATE TABLE IF NOT EXISTS requests (
+        CREATE TABLE IF NOT EXISTS connect (
         id INTEGER PRIMARY KEY,
         datetime TEXT NOT NULL,
-        parse_request JSON NOT NULL,
-        row_request JSON NOT NULL
+        parse_request JSON,
+        row_request JSON,
+        parse_response JSON,
+        row_response JSON
         )
         ''')
 
@@ -158,7 +160,46 @@ class Server:
             return json_parse_requset
         
         except Exception as e:
-            print("Parsce error:", str(e))
+            print("Parsce request error:", str(e))
+            return None
+        
+    def parse_response(self, response):
+        try:
+            split_response = response.split(b'\n')
+            # print(response)
+
+            headers = {}
+            for field in split_response:
+                if (field.split(b' ')[0] == b'Server:'):
+                    headers['Server'] = field.split(b' ')[1][:-1].decode('utf-8')
+                if (field.split(b' ')[0] == b'Header:'):
+                    headers['Header'] = field.split(b' ')[1][:-1].decode('utf-8')
+
+            body_start = response.find(b'<html>')
+            body_stop = response.find(b'</html>')
+            if body_start == -1 and body_stop == -1:
+                body = ""
+            else:
+                body = response[body_start:body_stop].decode('utf-8')
+            
+            code  = split_response[0].split(b' ')[1].decode('utf-8')
+            message_array = split_response[0].split(b' ')
+            message_array[-1] = message_array[-1][:-1]
+            message = b' '.join(message_array[2:]).decode('utf-8')
+
+
+            parse_response = {
+                "code": code,
+                "message": message,
+                "headers": headers,
+                "body": body
+            }
+            
+            json_parse_response = json.dumps(parse_response)
+            return json_parse_response
+        
+        except Exception as e:
+            print("Parsce response error:", str(e))
             return None
 
 
@@ -204,20 +245,20 @@ class Server:
             # Stripping method to find if HTTPS (CONNECT) or HTTP (GET)
             method = request.split(b" ")[0]
 
-            try:
+            # try:
                 
-                db = sqlite3.connect(self.db_name)
-                cursor = db.cursor()
+            #     db = sqlite3.connect(self.db_name)
+            #     cursor = db.cursor()
 
-                db_data = self.parse_request(request)
+            #     db_data = self.parse_request(request)
                 
-                if (db_data):
-                    cursor.execute('''INSERT INTO requests (datetime, parse_request, row_request) VALUES (?, ?, ?)''', (self.getTimeStampp(), db_data, request.decode('utf-8')))
+            #     if (db_data):
+            #         cursor.execute('''INSERT INTO connect (datetime, parse_request, row_request) VALUES (?, ?, ?)''', (self.getTimeStampp(), db_data, request.decode('utf-8')))
 
-                db.commit()
-                db.close()
-            except Exception as err:
-                print("DataBase error:", str(err))
+            #     db.commit()
+            #     db.close()
+            # except Exception as err:
+            #     print("DataBase error:", str(err))
 
             # Checking for blacklisted ips
             if addr[0] in self.blacklisted_ip_lookup:
@@ -269,6 +310,26 @@ class Server:
             # response_headers = self.generate_header_lines(200, len(response_content))
             # conn.send(response_headers.encode("utf-8"))
             # time.sleep(1)
+
+            try:
+                
+                db = sqlite3.connect(self.db_name)
+                cursor = db.cursor()
+
+                db_data_request = self.parse_request(request)
+                db_data_response = self.parse_response(response_content)
+                
+                cursor.execute('''INSERT INTO connect (datetime, parse_request, row_request, parse_response, row_response) VALUES (?, ?, ?, ?, ?)''',
+                            (self.getTimeStampp(), db_data_request, request.decode('utf-8'), db_data_response, response_content.decode('utf-8')))
+
+                db.commit()
+                db.close()
+            except Exception as err:
+                print("DataBase error:", str(err))
+
+                
+
+
             conn.send(response_content)
             conn.close()
 
@@ -278,8 +339,6 @@ class Server:
             try:
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 s.connect((webserver, port))
-                # Создаем подключение к базе данных (файл my_database.db будет создан)
-                db = sqlite3.connect(self.db_name)
             
                 
                 newRequest = request.split(b'\n')
@@ -310,11 +369,29 @@ class Server:
                     temp_file.write(buff[i])
                     conn.send(buff[i])
 
+
+                # try:
+                    
+                #     db = sqlite3.connect(self.db_name)
+                #     cursor = db.cursor()
+
+                #     # db_data_request = self.parse_request(request)
+                #     # db_data_response = self.parse_response(file_object.readlines())
+
+                   
+                    
+                #     cursor.execute('''INSERT INTO requests (datetime, parse_request, row_request, parse_response, row_response) VALUES (?, ?, ?)''',
+                #                 (self.getTimeStampp(), '', '', '', file_object.readlines().decode('utf-8')))
+
+                #     db.commit()
+                #     db.close()
+                # except Exception as err:
+                #     print("DataBase http error:", str(err))
+
                 print(self.getTimeStampp() + "  Request of client " + str(addr) + " completed...")
                 self.write_log(self.getTimeStampp() + "  Request of client " + str(addr[0]) + " completed...")
                 
                 s.close()
-                db.close()
                 conn.close()
 
             except Exception as e:
