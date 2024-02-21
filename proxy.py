@@ -8,7 +8,7 @@ Features: HTTP/HTTPS requests handling
 '''
 
 
-import socket, sys, datetime, time, sqlite3, json
+import socket, sys, datetime, time, psycopg2, json
 from _thread import start_new_thread
 
 class Server:
@@ -20,7 +20,10 @@ class Server:
         self.port = 0
         self.blacklisted_ip_lookup = blacklisted_ips
         self.blacklist_websites_lookup = blacklist_websites
-        self.db_name = "proxy.db"
+        # self.db_name = "proxy.db"
+        self.db_name = "connect"
+        self.user = "python"
+        self.pasword = "python"
 
     # Function to write log
     def write_log(self, msg):
@@ -34,18 +37,20 @@ class Server:
     
     def start_db(self):
         # Устанавливаем соединение с базой данных
-        db = sqlite3.connect(self.db_name)
+        db = psycopg2.connect(database=self.db_name, user=self.user, password=self.pasword, host="127.0.0.1", port="5432")
         cursor = db.cursor()
+
+        # cursor.execute("CREATE DATABASE connect")
 
         # Создаем таблицу Users
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS connect (
-        id INTEGER PRIMARY KEY,
+        id SERIAL PRIMARY KEY,
         datetime TEXT NOT NULL,
         parse_request JSON,
-        row_request JSON,
+        row_request TEXT,
         parse_response JSON,
-        row_response JSON
+        row_response TEXT
         )
         ''')
 
@@ -245,21 +250,6 @@ class Server:
             # Stripping method to find if HTTPS (CONNECT) or HTTP (GET)
             method = request.split(b" ")[0]
 
-            # try:
-                
-            #     db = sqlite3.connect(self.db_name)
-            #     cursor = db.cursor()
-
-            #     db_data = self.parse_request(request)
-                
-            #     if (db_data):
-            #         cursor.execute('''INSERT INTO connect (datetime, parse_request, row_request) VALUES (?, ?, ?)''', (self.getTimeStampp(), db_data, request.decode('utf-8')))
-
-            #     db.commit()
-            #     db.close()
-            # except Exception as err:
-            #     print("DataBase error:", str(err))
-
             # Checking for blacklisted ips
             if addr[0] in self.blacklisted_ip_lookup:
                 print(self.getTimeStampp() + "    IP Blacklisted")
@@ -313,13 +303,13 @@ class Server:
 
             try:
                 
-                db = sqlite3.connect(self.db_name)
+                db = psycopg2.connect(database=self.db_name, user=self.user, password=self.pasword, host="127.0.0.1", port="5432")
                 cursor = db.cursor()
 
                 db_data_request = self.parse_request(request)
                 db_data_response = self.parse_response(response_content)
                 
-                cursor.execute('''INSERT INTO connect (datetime, parse_request, row_request, parse_response, row_response) VALUES (?, ?, ?, ?, ?)''',
+                cursor.execute('''INSERT INTO connect (datetime, parse_request, row_request, parse_response, row_response) VALUES (%s, %s, %s, %s, %s)''',
                             (self.getTimeStampp(), db_data_request, request.decode('utf-8'), db_data_response, response_content.decode('utf-8')))
 
                 db.commit()
@@ -369,25 +359,6 @@ class Server:
                     temp_file.write(buff[i])
                     conn.send(buff[i])
 
-
-                # try:
-                    
-                #     db = sqlite3.connect(self.db_name)
-                #     cursor = db.cursor()
-
-                #     # db_data_request = self.parse_request(request)
-                #     # db_data_response = self.parse_response(file_object.readlines())
-
-                   
-                    
-                #     cursor.execute('''INSERT INTO requests (datetime, parse_request, row_request, parse_response, row_response) VALUES (?, ?, ?)''',
-                #                 (self.getTimeStampp(), '', '', '', file_object.readlines().decode('utf-8')))
-
-                #     db.commit()
-                #     db.close()
-                # except Exception as err:
-                #     print("DataBase http error:", str(err))
-
                 print(self.getTimeStampp() + "  Request of client " + str(addr) + " completed...")
                 self.write_log(self.getTimeStampp() + "  Request of client " + str(addr[0]) + " completed...")
                 
@@ -416,6 +387,8 @@ class Server:
             # response_headers = self.generate_header_lines(200, len(response_content))
             # conn.send(response_headers.encode("utf-8"))
             # time.sleep(1)
+
+            print(response_content)
             conn.send(response_content)
             conn.close()
 
