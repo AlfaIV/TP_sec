@@ -10182,3 +10182,5 @@ Starting Server
 [2024-02-21 20:09:19]   HTTP Connection request
 [2024-02-21 20:09:19]  Forwarding request from 127.0.0.1 to host...b'mail.ru'
 [2024-02-21 20:09:19]  Request of client 127.0.0.1 completed...
+[2024-02-21 20:26:13]   Interrupting Server.
+[2024-02-21 20:26:14]   Stopping Server
