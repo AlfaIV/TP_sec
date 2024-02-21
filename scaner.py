@@ -19,12 +19,13 @@ def get_data_db(id = -1):
         return data
     except Exception as err:
         print("DataBase error:", str(err))
+        return "DataBase error:" + str(err)
 
 app = Flask(__name__)
 
 @app.route('/')
 def main_page():
-    return 'Домашнее задание по курсу "Инструменты и техники безопасной разработки веб-приложений"\n Выполнил: AlfaIV'
+    return '<h3>Домашнее задание по курсу "Инструменты и техники безопасной разработки веб-приложений"</h3></br>Выполнил: AlfaIV'
 
 
 @app.route('/requests')
@@ -52,15 +53,23 @@ def get_data(id):
 
 @app.route('/repeat/<int:id>')
 def repeat_one_item_page(id):
-    proxy_url = 'http://your-proxy-url.com'  # Замените на URL вашего прокси-сервера
-    target_url = 'http://your-target-url.com'  # Замените на URL целевого сервера
-    response = requests.get(target_url, proxies={'http': proxy_url, 'https': proxy_url})
-    # return response.text
-    return f"Вы запросили повторный запрос с id {id}"
+    main_str = f'<h3>Вы запросили повторный запрос с id {id}</h3></br>'
+    
+    target_url = get_data_db(id)[0][2]['path']
+    proxies = {
+    'http': 'http://127.0.0.1:8080',
+    'https': 'http://127.0.0.1:8080'
+    }
+
+    response = requests.get(target_url, proxies=proxies)
+    print(response.status_code)
+    return main_str
 
 
 @app.route('/scan/<int:id>')
 def scan_page(id):
+    main_str = f'<h3>Вы запросили сканирование с id {id}</h3></br>'
+
     filename = 'dicc.txt'
     if os.path.isfile(filename):
         with open(filename, 'r') as file:
@@ -68,7 +77,7 @@ def scan_page(id):
     else:
         return f"Internal scaner error"
     
-    return f"Вы запросили сканирование с id {id} </br> файл: {path_list}"
+    return main_str
 
 
 if __name__ == '__main__':
