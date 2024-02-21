@@ -20,6 +20,8 @@ def get_data_db(id = -1):
     except Exception as err:
         print("DataBase error:", str(err))
         return "DataBase error:" + str(err)
+    
+
 
 app = Flask(__name__)
 
@@ -63,8 +65,8 @@ def repeat_one_item_page(id):
         return main_str +  "</br>URL error:" + str(err)
     
     proxies = {
-    'http': 'http://127.0.0.1:8080',
-    'https': 'http://127.0.0.1:8080'
+        'http': 'http://127.0.0.1:8080',
+        'https': 'http://127.0.0.1:8080'
     }
     try:
         response = requests.get(target_url, proxies=proxies)
@@ -72,19 +74,43 @@ def repeat_one_item_page(id):
         print("get request error:", str(err))
         return main_str +  "</br>get request error:" + str(err) 
     
-    return main_str + f"</br> request send sucess on url: {target_url}"
+    return main_str + f"</br> request send on url: {target_url}"
 
 
 @app.route('/scan/<int:id>')
 def scan_page(id):
     main_str = f'<h3>Вы запросили сканирование с id {id}</h3></br>'
+    respponse_data = ''
+
+    try:
+        # print(get_data_db(id))
+        url = get_data_db(id)[0][2]['path']
+    except Exception as err:
+        print("URL error:", str(err))
+        return main_str +  "</br>URL error:" + str(err)
 
     filename = 'dicc.txt'
+
     if os.path.isfile(filename):
         with open(filename, 'r') as file:
-            path_list = file.read()
+            # for line in file:
+            for i in range(10):
+                line = file.readline()
+                target_url = url + line.strip()
+                print(target_url)
+                try:
+                    response = requests.get(target_url)
+                except Exception as err:
+                    print("get request error:", str(err))
+                    return main_str +  "</br>get request error:" + str(err) 
+                try:
+                    if response.status_code != 404:
+                        respponse_data += f'</br>Запрос по адресу: {target_url}   Вернул статус ответа: {response.status_code}</br> Тело ответа: {response.text}'
+                except Exception as err:
+                    print("get response error:", str(err)) 
+
     else:
-        return f"Internal scaner error"
+        return main_str + '</br>Нет файла со списком для скана!'
     
     return main_str
 
