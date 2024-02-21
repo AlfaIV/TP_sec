@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Package            Version
 ------------------ --------
 blinker            1.7.0
@@ -15,3 +16,11 @@ requests           2.31.0
 setuptools         59.6.0
 urllib3            2.2.1
 Werkzeug           3.0.1
+=======
+Package    Version
+---------- -------
+pip        24.0
+psycopg2   2.9.9
+setuptools 69.1.0
+wheel      0.42.0
+>>>>>>> branchInTest

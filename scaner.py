@@ -55,15 +55,24 @@ def get_data(id):
 def repeat_one_item_page(id):
     main_str = f'<h3>Вы запросили повторный запрос с id {id}</h3></br>'
     
-    target_url = get_data_db(id)[0][2]['path']
+    try:
+        # print(get_data_db(id))
+        target_url = get_data_db(id)[0][2]['path']
+    except Exception as err:
+        print("URL error:", str(err))
+        return main_str +  "</br>URL error:" + str(err)
+    
     proxies = {
     'http': 'http://127.0.0.1:8080',
     'https': 'http://127.0.0.1:8080'
     }
-
-    response = requests.get(target_url, proxies=proxies)
-    print(response.status_code)
-    return main_str
+    try:
+        response = requests.get(target_url, proxies=proxies)
+    except Exception as err:
+        print("get request error:", str(err))
+        return main_str +  "</br>get request error:" + str(err) 
+    
+    return main_str + f"</br> request send sucess on url: {target_url}"
 
 
 @app.route('/scan/<int:id>')

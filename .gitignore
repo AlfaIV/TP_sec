@@ -1,2 +1,7 @@
 ./proxy
 ./cache
+./cache/*
+./log/*
+proxy.db
+cache
+
