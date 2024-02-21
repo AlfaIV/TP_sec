@@ -1,34 +1,54 @@
 from flask import Flask
-import sqlite3, os, requests
+import psycopg2, os, requests
+
+db_name = "connect"
+user = "python"
+pasword = "python"
 
 def get_data_db(id = -1):
-    db_name = ""
-    db_con = sqlite3.connect(db_name)
-    cursor = db_con.cursor()
-    if (id == -1):
-        cursor.execute("SELECT id, datetime, parse_request, parse_response  FROM connect")
-    else:
-        cursor.execute("SELECT id, datetime, parse_request, parse_response  FROM connect WHERE id=?", (id,))
-    data = cursor.fetchall()
-    db_con.close()
-    return data
+    global db_name, user, pasword
+    try:
+        db_con = psycopg2.connect(database=db_name, user=user, password=pasword, host="127.0.0.1", port="5432")
+        cursor = db_con.cursor()
+        if (id == -1):
+            cursor.execute("SELECT id, datetime, parse_request, parse_response  FROM connect")
+        else:
+            cursor.execute("SELECT id, datetime, parse_request, parse_response  FROM connect WHERE id=%s", (id,))
+        data = cursor.fetchall()
+        db_con.close()
+        return data
+    except Exception as err:
+        print("DataBase error:", str(err))
 
 app = Flask(__name__)
 
 @app.route('/')
-
 def main_page():
     return 'Домашнее задание по курсу "Инструменты и техники безопасной разработки веб-приложений"\n Выполнил: AlfaIV'
 
 
 @app.route('/requests')
 def requests_page():
-    return 'Вы запросили все данные'
+    main_str = '<h3>Вы запросили все данные</h3></br>'
+
+    data_from_db = get_data_db()
+    prepared_data = ""
+
+    for data in data_from_db:
+        prepared_data += '</br>' + " ". join(str(data))
+        prepared_data += '</br>'
+
+    return main_str + prepared_data
 
 
 @app.route('/requests/<int:id>')
 def get_data(id):
-    return f"Вы запросили данные с id {id}"
+    main_str = f'<h3>Вы запросили данные с id {id}</h3></br>'
+    prepared_data = ""
+    prepared_data += '</br>' + " ". join(str(get_data_db(id)))
+    print(get_data_db(id))
+    prepared_data += '</br>'
+    return main_str + prepared_data
 
 @app.route('/repeat/<int:id>')
 def repeat_one_item_page(id):
