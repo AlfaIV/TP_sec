@@ -17,3 +17,10 @@ services:
       - 8080:8080
     depends_on:
       - db
+  
+  scaner:
+    build: ./scaner/
+    ports:
+      - 8000:8000
+    depends_on:
+      - db

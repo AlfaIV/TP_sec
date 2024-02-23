@@ -12,6 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 8000
-EXPOSE 5432
 
 CMD ["python", "scaner.py"]

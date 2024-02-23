@@ -4,11 +4,15 @@ import psycopg2, os, requests
 db_name = "connect"
 user = "python"
 pasword = "python"
+# host = "127.0.0.1"
+db_host = "db"
+server_host = "0.0.0.0"
+# server_host = '127.0.0.1'
 
 def get_data_db(id = -1):
-    global db_name, user, pasword
+    global db_name, user, pasword, db_host
     try:
-        db_con = psycopg2.connect(database=db_name, user=user, password=pasword, host="127.0.0.1", port="5432")
+        db_con = psycopg2.connect(database=db_name, user=user, password=pasword, host=db_host, port="5432")
         cursor = db_con.cursor()
         if (id == -1):
             cursor.execute("SELECT id, datetime, parse_request, parse_response  FROM connect")
@@ -116,4 +120,4 @@ def scan_page(id):
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port='8000')
+    app.run(host=server_host, port='8000')
