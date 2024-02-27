@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.25.3
+Date: Wed, 21 Feb 2024 13:16:01 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://mail.ru/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.25.3</center>
+</body>
+</html>
+HTTP/1.1 400 Bad Request
+Server: nginx/1.25.3
+Date: Wed, 21 Feb 2024 13:16:01 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx/1.25.3</center>
+</body>
+</html>

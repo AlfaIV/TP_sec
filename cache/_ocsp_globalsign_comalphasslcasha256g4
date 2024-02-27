@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 21 Feb 2024 13:20:31 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.globalsign.com/
+Cache-Control: max-age=180, public, no-transform, must-revalidate
+CF-Cache-Status: MISS
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 858f4984cbdc9db0-DME
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+HTTP/1.1 400 Bad Request
+Server: cloudflare
+Date: Wed, 21 Feb 2024 13:20:31 GMT

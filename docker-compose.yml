@@ -1,0 +1,26 @@
+version: latest
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "connect"
+      POSTGRES_USER: "python"
+      POSTGRES_PASSWORD: "python"
+    ports:
+      - 5435:5432
+
+  proxy:
+    build:
+      context: ./proxy_src/
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+  
+  scaner:
+    build: ./scaner/
+    ports:
+      - 8000:8000
+    depends_on:
+      - db

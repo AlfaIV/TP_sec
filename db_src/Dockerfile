@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_PASSWORD="python"
+ENV POSTGRES_USER="python"
+ENV POSTGRES_DB="connect"
+
+EXPOSE 5432
